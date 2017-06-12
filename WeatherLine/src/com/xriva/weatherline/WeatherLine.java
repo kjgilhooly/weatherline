@@ -30,8 +30,8 @@ public class WeatherLine
 	private void findWeather(String loc)
 	{
 		String baseURL = "https://twcservice.mybluemix.net";
-		String auth = "f131a669-5b09-425b-8b37-886bd8b7553d" + ":"
-				+ "5fmwUvqFUZ";
+		String auth = "user" + ":"
+				+ "pass";
 		String authB64 = DatatypeConverter.printBase64Binary(auth.getBytes());
 
 		try
